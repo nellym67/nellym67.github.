@@ -1,7 +1,7 @@
 body {
     font-size: 16 px;
-    background-color: rgb(253, 245, 133);
-    font-family: : Arial, Helvetica, sans-serif;
+    background-color: rgb(162, 162, 207);
+    font-family : Arial, Helvetica, sans-serif;
 }
 
 header,
@@ -12,8 +12,8 @@ footer {
 }
 
 header {
-    background-color: coral;
-    color: cornsilk;
+    background-color: rgb(201, 203, 221);
+    color: rgb(218, 205, 240);
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -27,6 +27,7 @@ header>img {
 h1 {
     color:black;
     font-family: 'Poiret One', cursive;
+   
 }
 
 header nav ul {
@@ -40,18 +41,28 @@ header nav  ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(3, 9, 37);
     text-decoration: none;
     font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
     display:block;
     padding: .75rem;
    }
-
+a :focus,
 .active {
     color: blue;
     border-bottom: 1px solid royalblue;
     padding-bottom: .2rem;
+}
+
+header nav ul li a:hover{
+    color:rgb(239, 245, 239);
+
+}
+.wrapper{
+    display:grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
 }
 main section p{
     margin: 5px;
@@ -59,6 +70,11 @@ main section p{
     padding: 5px;
     background-color: whitesmoke;
 }
+.picture{
+    width :1000px;
+    height: auto;
+}
+
 
 footer{
     display: grid;
@@ -71,8 +87,8 @@ footer{
 }
 
 .information {
-    text-align: center;
-    width: 500 px;
+    text-align:center;
+    width: 800 px;
 }
 
 .social img {
